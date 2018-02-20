@@ -9,9 +9,9 @@ When a machine is in its patching window, the script takes a snapshot of the VM 
 ### Getting Started
 
 Tag all of your VMs that you want patched with the following attributes:
--  
--"Patching - Schedule" in format of Daily 0000 for patching at midnight, Daily 1200 for patching at noon, etc.
--"BetaGroup" in format of 1,2,3,4 to define the sequence in which VMs are patched (see below for more details)
+
+- "Patching - Schedule" in format of Daily 0000 for patching at midnight, Daily 1200 for patching at noon, etc.
+- "BetaGroup" in format of 1,2,3,4 to define the sequence in which VMs are patched (see below for more details)
 
 Run the script with the -Install flag to inventory all VMs that can be patched based on the above attributes.
   
